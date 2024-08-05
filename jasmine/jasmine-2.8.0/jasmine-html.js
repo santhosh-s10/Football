@@ -169,7 +169,6 @@ jasmineRequire.HtmlReporter = function (j$) {
       var alert = find('.jasmine-alert');
       var order = doneResult && doneResult.order;
       labName.appendChild(createDom('img', {
-        src: 'jasmine/jasmine-2.8.0/logo.png'
       }, ''));
       labName.appendChild(createDom('span', {}, 'Premier | Football Hackathon'));
       alert.appendChild(createDom('span', {

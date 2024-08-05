@@ -24,21 +24,8 @@ try {
 var formation = [4, 4, 3];
 
 //write your function here
-function createFormation(formation){
 
-  if(formation.length==0)
-  {
-  return null;
-  }
-  var play =
-  {
-    defender:formation[0],
-    midfield: formation[1],
-    forward: formation[2]
-}
-  return play;
 
-}
 // Dont edit the following code
 
 try {
